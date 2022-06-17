@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: white;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+    'a a b'
+    'c   d'
+        'e'
+        
+    ;
+}
+main div{
+    padding: 2em;
+    text-align: center;
+}
+
+.ita{
+    background-color: orangered;
+    grid-area: a;
+}
+.itb{
+    background-color: orange;
+    grid-area: b;
+}
+.itc{
+    background-color: green;
+    grid-area: c;
+}
+.itd{
+    background-color: rgba(25, 127, 131, 0.5);
+    grid-area: d;
+}
+.ite{
+    background-color: rgba(25, 127, 131, 0.5);
+    grid-area: e;
+}
