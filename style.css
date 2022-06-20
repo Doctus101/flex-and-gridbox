@@ -8,6 +8,23 @@ body {
   transition: backgroung-color 300ms;
 }
 
+.flexbox{
+  background-color: pink;
+  color: black;
+  border: 1px solid pink;
+  border-radius: 8px;
+  animation-name: flex;
+  padding: 4px 6px 4px 6px;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: 3;
+}
+@keyframes flex {
+  from {background-color: pink;}
+  to {background-color: yellow;}
+
+}
+
 main {
   width: 50%;
   margin: auto;
